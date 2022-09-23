@@ -1,21 +1,16 @@
 #!/bin/bash:
 #creating sign up prompt;
 
-echo "Are you a new?";
+echo "Are you a new memeber?";
+#prompt for user to sign up or provid existing account
 read answer;
 #takes response and then proceeds starting with no
 if [[ $answer = "No" ]] || [[ $answer = "n" ]] || [[ $answer = "N" ]] || [[ $answer = "no" ]];
 then
- 	read -p	"Enter your email:" $xemail;
- 	sh parser.sh MOCK_DATA.csv | grep -A5 -q "Email address: $xemail$";
- echo "You're already here."
+	sh verify-user.sh;
 	elif [[ $answer = "Yes" ]] || [[ $answer = "y" ]] || [[ $answer = "Y" ]] || [[ $answer = "yes" ]];
 	then
-		read -p "First name: " fname;
-  		read -p "Last name: " lname;
-  		read -p "Email address: " email;
-  		read -p "Username: " uname;
- 		read -p "Password: " pw;
- 		echo "$fname,$lname,$email,$uname,$pw" >> MOCK_DATA.csv;
+		echo "Fill this out!"
+		sh add-user.sh;
  		echo "Got ya, thanks for signing up!"
- fi
+ 	fi
