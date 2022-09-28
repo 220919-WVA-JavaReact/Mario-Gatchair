@@ -10,7 +10,8 @@ CREATE TABLE Courses(
 	Courseid serial PRIMARY KEY UNIQUE,
 	"Course title" varchar(45) NOT NULL,
 	Mandatory bool,
-	"Area of study" varchar(225)
+	"Area of study" varchar(225),
+	teachersid REFERENCES Teachers UNIQUE
 );
 
 CREATE TABLE Teachers(
@@ -28,16 +29,13 @@ CREATE TABLE Topics(
 );
 
 CREATE TABLE student_enrollment(
-	course serial REFERENCES Courses,
-	student serial REFERENCES Students,
-	topics serial REFERENCES topics
+	courseid int REFERENCES Courses,
+	studentid int REFERENCES Students,
+	topicsid int REFERENCES Topics
 );
 
-CREATE TABLE teacher_assignment(
-	teacher serial REFERENCES Teachers,
-	course serial REFERENCES Courses
-);
 
 CREATE TABLE topics_studies(
-	courses serial REFERENCES courses
+	coursesid int REFERENCES Courses,
+	topicid int REFERENCES Topics
 );
