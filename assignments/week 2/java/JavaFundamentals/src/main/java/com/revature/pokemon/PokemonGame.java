@@ -59,7 +59,7 @@ public class PokemonGame {
 
             //System.out.println("Press 1 to run, 2 to battle");
 
-            System.out.println("Type 'run' to run 'battle' to battle and 'party' to view your party ");
+            System.out.println("Type 'run' to run, 'battle' to battle, and 'party' to view your party, or press 'q' to quit");
             // Now we need to collect the input from the user
 
             String choice = input.nextLine();
