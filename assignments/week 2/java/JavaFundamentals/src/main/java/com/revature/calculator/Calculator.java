@@ -1,7 +1,7 @@
 package com.revature.calculator;
 import java.util.Scanner;
 
-public class CalculatorDriver {
+public class Calculator {
     //Goal: We want to create some sort of console application that allows us to take input for a calculator
     public static void main(String[] args) {
         // defining input
