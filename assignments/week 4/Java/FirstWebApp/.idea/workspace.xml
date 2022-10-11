@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7a85381-82ab-4321-860a-0b3a6a3b0738" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/TestConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/collections/exercises/LinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/dao/CourseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/dao/CourseDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/dao/TeacherDAOImplPostgres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/testing/ArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/testing/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/testing/CodingChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/testing/DivideByZeroExpection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/util/ConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/resources/DB-Setup.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/resources/application.properties.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/test/java/ArraySumTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/test/java/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/test/java/CodingChallenege.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/collections/exercises/LinkList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/collections/exercises/ArryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/collections/exercises/ArryList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/collections/exercises/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/dao/TeacherDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/dao/TeacherDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/dao/TeacherDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/dao/TeacherDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/model/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/service/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/collections/exercises/ArryList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/collections/exercises/ArryList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/collections/exercises/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/courses/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/courses/dao/TeacherDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/courses/dao/TeacherDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/courses/model/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/courses/model/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/courses/service/TeacherService.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Fzdtic4kbgvcrnjRwzi6U0Um5Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7a85381-82ab-4321-860a-0b3a6a3b0738" name="Changes" comment="" />
+      <created>1665499067359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665499067359</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,5 +1,6 @@
 package com.revature.courses;
 import com .revature.courses.model.Teacher;
+import com.revature.courses.service.CourseService;
 import com.revature.courses.service.TeacherService;
 
 import java.util.Scanner;
@@ -9,7 +10,9 @@ public class App {
     // Inside of my App class is all of the information and logic to start and run the application
     // Menu logic
 
-    //public static TeacherService ts = new TeacherService();
+    public static TeacherService ts = new TeacherService();
+
+    public static CourseService cs = new CourseService();
 
     public static void main(String[] args) {
         // In this app this will be the ONLY main method I have
@@ -33,42 +36,57 @@ public class App {
          */
 
         // We'll want to prompt the user to either login or register
+        System.out.println("Press 1 to Login. Press 2 to register, press 3 to view all teachers");
 
-        System.out.println("Press 1 to Login. Press 2 to register");
-        TeacherService ts = new TeacherService();
+
         Scanner sc = new Scanner(System.in);
 
         String choice = sc.nextLine();
 
+        Teacher loggedInTeacher = null;
+        //
         //Now we use some control flow to map options to their choices
 
         if (choice.equals("1")) {
             //This is where we get login credentials
 
             // We need to get the username and password
-            System.out.println("Please enter your username");
-            String username = sc.nextLine();
-            System.out.println("Please enter your password");
-            String password = sc.nextLine();
 
             // Just for testing let's print it out
             //System.out.println("Username: " + username + ", Password: " + password);
 
             //At this point we would call our TeacherService class to handle the logic for signing in!
-        ts.login(username, password);
+
+            loggedInTeacher = ts.login();
 
         } else if (choice.equals("2")) {
             // This where we get registration information
-            System.out.println("Please enter your First Name");
-            String first = sc.nextLine();
-            System.out.println("Please enter your Last name");
-            String last = sc.nextLine();
-            System.out.println("Please enter your username");
-            String username = sc.nextLine();
-            System.out.println("Please enter your password");
-            String password = sc.nextLine();
+            //Now that we have all the information we need we can start talking to our TeacherService class to handle this info
 
-            // Now that we have all the information we need we can start talking to our TeacherService class to handle this info
+            // Commenting out everything above and moving it to TeacherSerivce class
+            loggedInTeacher = ts.register();
+        }else if(choice.equals("3")){
+            // To print all our teachers we just need to call the getAllTeachers method from the serivce class
+            ts.getAllTeachers();
+        }
+
+
+        if (loggedInTeacher != null){
+
+            System.out.println("Press 1 to Login. Press 2 to register, press 3 to view all teachers");
+
+            String subchoice = sc.nextLine();
+
+            switch (subchoice){
+                case "1":
+                    cs.createCourse(loggedInTeacher);
+                    break;
+                //case"2":
+                //cs.assignCourse(loggedInTeacher.getTeacherId());
+                //break;
+                default:
+                    System.out.println("invalid input");
+            }
         }
     }
 }

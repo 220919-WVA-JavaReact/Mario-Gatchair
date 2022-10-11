@@ -43,7 +43,8 @@ public class ArryList {
         colors.remove(6);
         System.out.println("After remove(6): " + colors);
         // 6. Write a Java program to search an element in an array list.
-        
+        System.out.println("indexOf: \"Black\" " + colors.indexOf("Black"));
         // 7. Write a Java program to sort a given array list.
+        System.out.println("Does name array contain \"Black\"?:" + colors.contains("Black"));
     }
 }

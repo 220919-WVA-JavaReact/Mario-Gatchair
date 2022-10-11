@@ -17,9 +17,6 @@ public class Teacher {
 
     private String password;
 
-    //Now that we have all of our fields the plan is to create some constructros and some getters and setter and
-    // to override some object class methods
-
 
     public Teacher(int teacherId, String first, String last, String username, String password) {
         this.teacherId = teacherId;
@@ -29,57 +26,52 @@ public class Teacher {
         this.password = password;
     }
 
+    public Teacher() {
+    }
 
-    public Teacher(int id, String first, String last, String username, String password, String s) {
-                this.first = first;
-                this.last = last;
-                this.username = username;
-                this.password = password;
-            }
+    public int getTeacherId() {
+        return teacherId;
+    }
 
-            public int getTeacherId() {
-                return teacherId;
-            }
+    public void setTeacherId(int teacherId) {
+        this.teacherId = teacherId;
+    }
 
-            public void setTeacherId(int teacherId) {
-                this.teacherId = teacherId;
-            }
+    public String getFirst() {
+        return first;
+    }
 
-            public String getFirst() {
-                return first;
-            }
+    public void setFirst(String first) {
+        this.first = first;
+    }
 
-            public void setFirst(String first) {
-                this.first = first;
-            }
+    public String getLast() {
+        return last;
+    }
 
-            public String getLast() {
-                return last;
-            }
+    public void setLast(String last) {
+        this.last = last;
+    }
 
-            public void setLast(String last) {
-                this.last = last;
-            }
+    public String getUsername() {
+        return username;
+    }
 
-            public String getUsername() {
-                return username;
-            }
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
-            public void setUsername(String username) {
-                this.username = username;
-            }
+    public String getPassword() {
+        return password;
+    }
 
-            public String getPassword() {
-                return password;
-            }
-
-            public void setPassword(String password) {
-                this.password = password;
-            }
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
     @Override
     public String toString() {
-        return "Teachers{" +
+        return "Teacher{" +
                 "teacherId=" + teacherId +
                 ", first='" + first + '\'' +
                 ", last='" + last + '\'' +
@@ -93,7 +85,7 @@ public class Teacher {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Teacher teacher = (Teacher) o;
-        return teacherId == teacher.teacherId && first.equals(teacher.first) && last.equals(teacher.last) && username.equals(teacher.username) && password.equals(teacher.password);
+        return teacherId == teacher.teacherId && Objects.equals(first, teacher.first) && Objects.equals(last, teacher.last) && Objects.equals(username, teacher.username) && Objects.equals(password, teacher.password);
     }
 
     @Override
