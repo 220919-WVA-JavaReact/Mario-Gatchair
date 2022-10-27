@@ -26,9 +26,43 @@ React
             - the differential is calculated - Reconciliation
             - only the necessary changes are made to the DOM
 
+JSX
+    - JavaScript XML
+    - syntax extension of JS, looks like HMTL but is JS function call
+        - Compiled using Babel
+    - lowercase tags are HMTL
+    - Capitalized tags are reacted elements
+    {} to evaluate JS or TS expressions
+
 components
     - reusable pieces of code/"unit"
+    - two main types of components 
+        - Function components
 
+function Header() {
+    return (
+        <header>
+            <h1>Kevin Tran Huu!!!</h1>
+        </header>
+    );
+}
+
+export default Header;
+
+        - Class components
+
+import React from "react";
+
+class Footer extends React.Component {
+    render() {
+
+        return (
+            <footer>
+                <span><strong>Java/React batch - HTML example</strong></span>
+            </footer>
+        );
+    }
+}
 
 export default Footer;
     - Function components are preferred
@@ -44,3 +78,21 @@ Routing
         - ie: <Link to="/new"> </Link>
     - <Routes></Routes>
         - where routes are injected using <Routes> </Route>
+
+Props
+    - properties used to pass data down to the child component
+        - look like HTML attributes
+        - immutable/read=only objects
+            - React's philosophy, components should manage their own state, but not their Props
+            - Top manipulate parent's state, a setter function must be passed alongside as props
+
+Container/Presentation components
+    - Container
+        - contains little to no markup
+        - mainly concerned about application logic
+        - typically stateful
+    - Presentation
+        - nearly all markup
+        - receives data and actions via props from the container component
+        - typically not stateful
+    - Referred to as container/presentation, smart/dumb, stateful/stateless
