@@ -16,7 +16,7 @@ function Home() {
                 </div>
                 <figure>
                 <img src={require('./train-ride.png')} id="pic" />
-                <figcaption><h6>Train ride to my first developer interview.</h6></figcaption>
+                <figcaption><h4>Train ride to my first developer interview.</h4></figcaption>
                 </figure>
                 <div id="Hobbies" className="hobbiebox">
                     <h3 className="text3"> Hobbies</h3>

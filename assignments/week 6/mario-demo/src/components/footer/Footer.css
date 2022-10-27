@@ -1,5 +1,9 @@
 footer{
-    background-color: gray;
+    background-color: black;
     padding: 1%;
     text-align: right;
+    color: white;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }

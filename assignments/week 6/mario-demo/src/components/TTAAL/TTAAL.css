@@ -1,6 +1,7 @@
 table{
     margin-right: auto;
     margin-left: auto;
+    color: white;
 }
 
 td,th {
@@ -10,9 +11,9 @@ td,th {
 }
 
 .truth:hover{
-    background-color: green;
+    background-color: red;
 }
 
 .lie:hover{
-    background-color: red;
+    background-color: goldenrod
 }

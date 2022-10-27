@@ -4,7 +4,7 @@ class Footer extends React.Component{
     render() {
         return (
             <footer>
-                <span><strong>Java/React batch - HTML example</strong></span>
+                <span><strong> Stay Gold 👉💥</strong></span>
             </footer>
         );
     }
