@@ -1,0 +1,19 @@
+TypeScript (TS)
+    - made by Microsoft
+    - features
+        - a superset of JS
+            - built upon JS
+            - all of JS is valid TS
+        - optional strong typing
+        - improved IntelliSense
+        - compilation/transplilation errors
+        - OOP features
+            - Interfaces
+            - Access modifiers
+            - Enums
+    - TS cannot be ran in a browser
+        - needs to be transpiled into JS
+        - tsc - command that can be used to transpile .ts files into .js
+    - Interfaces
+        - different than in JavaScript
+        - used to define a "shape" of what an object should look like

@@ -5,44 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7a85381-82ab-4321-860a-0b3a6a3b0738" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/TestConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/collections/exercises/LinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/dao/CourseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/dao/CourseDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/dao/TeacherDAOImplPostgres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/testing/ArraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/testing/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/testing/CodingChallenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/testing/DivideByZeroExpection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/util/ConnectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/resources/DB-Setup.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/resources/application.properties.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/test/java/ArraySumTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/test/java/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/test/java/CodingChallenege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/collections/exercises/LinkList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/collections/exercises/ArryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/collections/exercises/ArryList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/collections/exercises/LinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/dao/TeacherDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/dao/TeacherDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/dao/TeacherDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/dao/TeacherDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/model/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/model/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/java/com/revature/courses/service/TeacherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/collections/exercises/ArryList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/collections/exercises/ArryList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/collections/exercises/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/courses/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/courses/dao/TeacherDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/courses/dao/TeacherDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/courses/model/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/courses/model/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/target/classes/com/revature/courses/service/TeacherService.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/models/Flashcard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCore/spring-intro-java/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCore/spring-intro-java/src/main/java/SpringConfigDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCore/spring-intro-java/src/main/java/com/revature/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCore/spring-intro-java/src/main/java/com/revature/models/BaseballCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCore/spring-intro-java/src/main/java/com/revature/models/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCore/spring-intro-java/src/main/java/com/revature/models/FootballCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCore/spring-intro-java/src/main/java/com/revature/models/TrackCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCore/spring-intro-java/src/main/java/com/revature/services/MotivationalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCore/spring-intro-java/src/main/java/com/revature/services/WorkoutService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week 5/JavaReview/untitled/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/resources/application.properties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week 2/java/JavaFundamentals/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/HelloHandler.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,18 +42,35 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2Fzdtic4kbgvcrnjRwzi6U0Um5Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mario\Documents\Revature\Mario-Gatchair\assignments\week 4\Java\FirstWebApp" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

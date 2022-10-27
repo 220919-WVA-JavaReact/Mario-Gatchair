@@ -1,0 +1,32 @@
+nav{
+
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #542f18;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li:last-child{
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(226, 4, 15);
+}

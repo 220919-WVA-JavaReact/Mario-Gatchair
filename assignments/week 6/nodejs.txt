@@ -1,0 +1,41 @@
+
+NodeJS
+    -  an open-source, cross-platform JavaScript runtime environment.
+        - allows us to run JS outside of the browser
+    - Allows us to use JS for every tier of an application
+
+NVM
+    - Node Version Manager
+        - allows us to easily switch between node Versions
+        - https://github.com/nvm-sh/nvm
+            - scoop install nvm
+            - nvm install "lts"
+            - nvm use "lts"
+
+Node Package Manager (npm)
+    - included with NodeJS installation
+    - one of the world's largest software registry
+        - free to use
+    - 3 main components
+        - website
+            - navigate, discover packages
+        - CLI tool
+            - npm command
+        - registry
+            - database of JS software available for download
+    - npm init
+        - initializes a new JS project
+            - generates the package.json
+                - like the pom.xml
+                - lists the dependencies used
+                - metadata about the project
+    - node_modules
+        - folder that contains all of the dependencies required to run an npm project
+            - when cloning/pulling an npm project, run npm install to install the dependencies locally
+        - good practice is to .gitignore the node_modules folder
+            - otherwise, all the dependencies get pushed to GitHub
+        - managed by npm
+            - npm install
+            - npm uninstall
+    - package-lock.json
+        - specifies the exact version of the dependencies and required sub-dependencies so that the project is 100% reproducible

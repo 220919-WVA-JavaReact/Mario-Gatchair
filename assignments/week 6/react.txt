@@ -1,0 +1,46 @@
+React
+    - A JavaScript library for building user interfaces
+        - lightweight
+            - meant to be used with other modules of the user's choice (ie React Router)
+        - React DOM, React Native, React VR
+    - Declarative
+        - using React, we describe the desired state using JSX
+            - React handles the rest
+    - Not a framework
+        - Technically, React is a library and not a framework
+        - Frameworks (like Vue, Angular) have their "right" way of doing things
+            - "forced" to do things the way they want/ use their dependencies
+            - Frameworks generally "call your code"
+    - Component-based architecture
+        - breaking down a UI into smaller reusable components
+            - inject/remove views and functionality of the same page rather than requesting a new one
+        - Single Page Applications (SPA)
+            - Design Pattern
+            - No longer need to fully reload the webpage with another view (ONLY ONE VIEW)
+            - Web Pack
+                - a static module bundler for modern JavaScript applications
+    - Virtual DOM
+        - Used to render elements more efficiently than traditional DOM manipulation
+        - Keeps virtual views in memory
+            - updates/changes made are compared to the virtual DOM representation in memory
+            - the differential is calculated - Reconciliation
+            - only the necessary changes are made to the DOM
+
+components
+    - reusable pieces of code/"unit"
+
+
+export default Footer;
+    - Function components are preferred
+        - simpler syntax
+        - less code to transpile
+        - "cleaner"
+
+Routing
+    - allows us to swap components dynamically based on the URL path of the application
+    - react router DOM
+    - defined <BrowserRouter></BrowserRouter>
+    - defining paths to navigate to using the link component
+        - ie: <Link to="/new"> </Link>
+    - <Routes></Routes>
+        - where routes are injected using <Routes> </Route>

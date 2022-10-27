@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    
+    <!-- How would I go about taking information from a user? -->
+
+    <form method="POST" action="http://www.example.com">
+
+        <fieldset>
+
+            <Legend>Your Details</Legend>
+            
+            <!-- Let's add a lable for this information -->
+            <label for="username"> Userame:</label>
+            <!-- Let's say I want to take in information for a username and password -->
+            <input type="text" name="username" maxlength="50" placeholder="Enter your username here"/>
+
+            <br/><br/>
+
+            <label for="password">PassowrdL</label>
+            <input type="password" name="password" maxlength="50" placeholder="Enter your password here"/>
+
+        </fieldset>
+
+        <br/>
+
+        <fieldset>
+            <legend>Your Review</legend>
+
+            <div>
+                <label for="hear-about">How did you hear about us?</label>
+                <select name="referer" id="hear-about?">
+                    <option value="">Please Make a Selection</option>
+                    <option value="google">Google</option>
+                    <option value="advert">Advertisement</option>
+                    <option value="friend">Friend</option>
+                    <option value="other">Other</option>
+                </select>
+                
+            </div>
+
+            <div>
+                <p> Would you visit again?</p>
+                <br/>
+                <lablel>Yes: <input type="radio" name="will-return" vaule="yes"></lablel>
+                <lablel>No: <input type="radio" name="will-return" vaule="no"></lablel>
+                <lablel>Maybe: <input type="radio" name="will-return" vaule="maybe"></lablel>
+            </div>
+
+            <label>
+                Sign me up for email updates! <input type="checkbox" checked="checked" name="subscribes">
+            </label>
+
+            <br/><br/>
+
+            <label>
+                Please provide any addtional comments: <br/>
+                <textarea name="comments" cols="30" rows="10" maxlength="300"></textarea>
+            </label>
+
+        </fieldset>
+
+        <input type="submit" value="SubmitReview">
+
+    </form>
+
+
+</body>
+</html>

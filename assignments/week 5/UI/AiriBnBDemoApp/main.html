@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>AirBnB App</title>
+</head>
+<body>
+<!-- We have to major parts we want to handle -->
+<!-- We want to take in user input-->
+    <div>
+        <h2>Search AirBnB for Stays</h2>
+        <input type="text" placeholder="Destination" id="destination"/>
+        <input type="date"  id="check-in"/>
+        <input type="date"  id="check-out"/>
+        <input type="number" placeholder="Adults"" id="guests" min="1" max="8"/>
+
+        <button id="search-button">Search</button>
+    </div>
+
+    <!-- We want to dyanmically load a container-->
+    <div id="room-container">
+
+
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

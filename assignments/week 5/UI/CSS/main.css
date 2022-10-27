@@ -1,0 +1,43 @@
+.course{
+    border: 1px solid black;
+    width: 200px;
+    margin: 1rem;
+}
+
+#course-container{
+    display: flex;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.h-bio{
+    border: 2px solid ;
+    color: rebeccapurple;
+    width: 300px;
+    height: 500px;
+    align-content: center;
+}
+.welcome{
+    text-align: center;
+    width: auto;
+    border: 1px solid black;
+    color: cornflowerblue;
+}
+
+.bg{
+    color: lightcoral;
+}
+
+.hobbiebox{
+    border: 1px solid saddlebrown;
+    width: 300px;
+    height: 400px;
+    background-color: transparent palegoldenrod;
+}
+
+.divcontainer{
+    display: flex;
+    justify-content: space-around;
+}
